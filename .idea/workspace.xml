@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0185033f-b0bb-4f98-8917-b6cbe72dd54f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/Context/RequestStackContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/Context/RequestStackContext.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/Package.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/Package.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/PackageInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/PackageInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/Packages.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/Packages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/PackageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/PackageTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/PathPackageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/PathPackageTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/UrlPackageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/UrlPackageTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/VersionStrategy/JsonManifestVersionStrategyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/VersionStrategy/JsonManifestVersionStrategyTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/VersionStrategy/StaticVersionStrategyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/Tests/VersionStrategy/StaticVersionStrategyTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/UrlPackage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/UrlPackage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symfony/Component/Asset/VersionStrategy/JsonManifestVersionStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symfony/Component/Asset/VersionStrategy/JsonManifestVersionStrategy.php" afterDir="false" />
-    </list>
+    <list default="true" id="0185033f-b0bb-4f98-8917-b6cbe72dd54f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,11 +35,22 @@
       <option name="presentableId" value="Default" />
       <updated>1623071527056</updated>
       <workItem from="1623071528021" duration="1919000" />
-      <workItem from="1623242622591" duration="2038000" />
+      <workItem from="1623242622591" duration="2362000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
