@@ -69,22 +69,22 @@ class JsonManifestVersionStrategyTest extends TestCase
         new JsonManifestVersionStrategy('https://cdn.example.com/manifest.json');
     }
 
-    public function provideValidStrategies(): \Generator
+    public function provideValidStrategies()
     {
         yield from $this->provideStrategies('manifest-valid.json');
     }
 
-    public function provideInvalidStrategies(): \Generator
+    public function provideInvalidStrategies()
     {
         yield from $this->provideStrategies('manifest-invalid.json');
     }
 
-    public function provideMissingStrategies(): \Generator
+    public function provideMissingStrategies()
     {
         yield from $this->provideStrategies('non-existent-file.json');
     }
 
-    public function provideStrategies(string $manifestPath): \Generator
+    public function provideStrategies(string $manifestPath)
     {
         $httpClient = new MockHttpClient(function ($method, $url, $options) {
             $filename = __DIR__.'/../fixtures/'.basename($url);

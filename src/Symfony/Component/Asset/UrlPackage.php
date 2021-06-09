@@ -112,12 +112,12 @@ class UrlPackage extends Package
      *
      * @return int The base URL index for the given path
      */
-    protected function chooseBaseUrl(string $path): int
+    protected function chooseBaseUrl(string $path)
     {
         return (int) fmod(hexdec(substr(hash('sha256', $path), 0, 10)), \count($this->baseUrls));
     }
 
-    private function getSslUrls(array $urls): array
+    private function getSslUrls(array $urls)
     {
         $sslUrls = [];
         foreach ($urls as $url) {

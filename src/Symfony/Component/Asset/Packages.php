@@ -57,7 +57,7 @@ class Packages
      * @throws InvalidArgumentException If there is no package by that name
      * @throws LogicException           If no default package is defined
      */
-    public function getPackage(string $name = null): ?PackageInterface
+    public function getPackage(string $name = null)
     {
         if (null === $name) {
             if (null === $this->defaultPackage) {
